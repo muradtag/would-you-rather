@@ -20,21 +20,22 @@ To get started developing right away:
 ├── yarn.lock
 ├── public
 │   ├── images
-│   |     └── logo.png
+│   │   ├── logo.png
+│   │   └── 404.png
 │   └── index.html
 └── src
     ├── Components # All the components used in the app.
     │   ├── App.js
-    │   ├── Home.js
+    │   ├── HomePage.js
+    │   ├── HomeCard.js
     │   ├── Leaderboard.js
     │   ├── Login.js
     │   ├── Nav.js
     │   ├── NewQuestion.js
     │   ├── NotFound.js
-    │   ├── Question.js
-    │   ├── QuestionOut.js
-    │   ├── QuestionResult.js
-    │   └── UserCard.js
+    │   ├── QuestionChoices.js
+    │   ├── QuestionPage.js
+    │   └── QuestionResult.js
     ├── actions
     │   ├── authedUser.js
     │   ├── questions.js

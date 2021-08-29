@@ -18,7 +18,7 @@ class Nav extends React.Component {
 						<Image src="images/logo.png" alt="Logo" size="tiny" centered />
 					</Menu.Item>
 					<Menu.Item name="Home" as={NavLink} to="/" exact />
-					<Menu.Item name="New Question" as={NavLink} to="/new" />
+					<Menu.Item name="New Question" as={NavLink} to="/add" />
 					<Menu.Item name="Leader Board" as={NavLink} to="/leaderboard" />
 					<Menu.Item position="right">
 						<span>

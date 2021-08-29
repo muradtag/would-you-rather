@@ -26,7 +26,7 @@ class App extends React.Component {
 						<Switch>
 							<Route exact path="/" component={HomePage} />
 							<Route path="/questions/:questionId" component={QuestionPage} />
-							<Route path="/new" component={NewQuestion} />
+							<Route path="/add" component={NewQuestion} />
 							<Route path="/leaderboard" component={Leaderboard} />
 							<Route component={NotFound} />
 						</Switch>

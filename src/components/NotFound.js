@@ -7,7 +7,7 @@ class NotFound extends Component {
 		return (
 			<Grid centered padded>
 				<Grid.Column style={{ maxWidth: 650 }}>
-					<Fragment textAlign="center">
+					<Fragment>
 						<Image size="medium" centered src="images/notFound.png" />
 						<Header textAlign="center" as="h2">
 							Page Not Found
